@@ -18,7 +18,8 @@ function h = vizMesh(o,varargin)
     %   or
     %   vizMesh(T, ... )
     %   T is the Hex1Mesh class
-
+    
+    %
     ele = 1:size(o.Connectivity,1);
     if nargin > 1
         if isa(varargin{1},'double')
